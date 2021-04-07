@@ -1,51 +1,63 @@
-<!DOCTYPE html>
-<html>
-    <head>
-     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css" /> 
-    <title>Acesso</title>
-</head>
-<body>
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
-            <form action="#">
-                <h1>Criar conta</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>Ou utilize sua conta</span>
-                <input type="text" placeholder="Nome" />
-                <input type="email" placeholder="E-mail" />
-                <input type="password" placeholder="Senha" />
-                <button>Acessar</button>
-            </form>
-        </div>
-        <div class="form-container sign-in-container">
-            <form action="#">
-                <div class="logo">
-                    <img src="..\logo.png">
-                </div>
-                <input type="email" placeholder="E-mail" />
-                <input type="password" placeholder="Senha" />
-                <a href="#">Esqueceu sua senha?</a>
-                <button>Acessar</button>
-            </form>
-        </div>
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Bem vindo de volta</h1>
-                    <p>Para manter-se concectado conosco preencha as informações abaixo</p>
-                    <button class="ghost" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>Olá!</h1>
-                    <p>Para manter-se concectado conosco preencha as informações no cadastro</p>
-                    <button class="ghost" id="signUp">Cadastro</button>
-                </div>
-            </div>
-        </div>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signin Template · Bootstrap v5.0</title>
+
+    
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="..\css\signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form>
+    <img class="mb-4" src="logo.png" alt="" width="230" height="80">
+    <h1 class="h3 mb-3 fw-normal">Por favor, identifique-se</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">E-mail</label>
     </div>
-</body>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Senha</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Lembrar
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+  </form>
+</main>
+
+
+    
+  </body>
+</html>
