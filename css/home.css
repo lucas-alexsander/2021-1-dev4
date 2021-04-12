@@ -4,8 +4,8 @@
 
 
 #homeCardImage{
-    height: 225px;
-    object-fit: cover;
+    height: 500px;
+    object-fit:contain;
     /* background-image: url('../images/imgPython.jpeg'); */
     /* opacity: 0.3; */
     display:flex;
@@ -19,7 +19,7 @@
     position: absolute;
     height:100%;
     width:100%;
-    opacity: .5;
+    opacity: .3;
   }
   #homeCardImage >p{
     /* background:rgba(0,0,0,0.3) ; */
