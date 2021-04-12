@@ -1,0 +1,29 @@
+#info-home{
+    color:black !important
+}
+
+
+#homeCardImage{
+    height: 225px;
+    object-fit: cover;
+    /* background-image: url('../images/imgPython.jpeg'); */
+    /* opacity: 0.3; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background:#000;
+  }
+  
+  #homeCardImage > img{
+    position: absolute;
+    height:100%;
+    width:100%;
+    opacity: .5;
+  }
+  #homeCardImage >p{
+    /* background:rgba(0,0,0,0.3) ; */
+    color:#fff;
+    opacity: 1;
+  }
+  
