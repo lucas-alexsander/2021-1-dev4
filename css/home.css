@@ -3,17 +3,17 @@
 }
 
 #homeBGLogo{
-    /* width: 350px; */
-    /* height: 100px; */
+     width: 350px; 
+     height: 100px; 
     opacity: 0.9;
     /* display:flex; */
-    padding:10pt;
+   /* padding:10pt; */
     
     align-items: center;
     justify-content: center;
     position: relative;
-    background:rgba(255, 255, 255, 0.446);
-    border-radius: 20%;
+    background:rgb(0, 0, 0);
+    border-radius: 5%;
   }
 
 #homeCardImage{
