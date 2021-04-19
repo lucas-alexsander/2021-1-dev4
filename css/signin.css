@@ -41,7 +41,7 @@ body {
 
 .btn-primary {
   color: #fff;
-  background-color: #DF4A4A;
+  background-color: #DF4A4A; /*Fundo e bordas segundo padrão de cores da universidade*/
   border-color: #DF4A4A;
 }
 .form-signin input[type="email"] {
@@ -71,6 +71,7 @@ body {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/*espaçamento entre os botoes cadastro e login*/
 .espacoBotoes{
   margin: 10px;
 }
