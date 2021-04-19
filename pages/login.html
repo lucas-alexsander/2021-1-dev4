@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Signin Template · Bootstrap v5.0</title>
-
+    <title>Login - Repositório Institucional FACIN UniRitter</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" >
     
     
 
-    <!-- Bootstrap core CSS -->
+    <!-- Page Login criado por Gabriel Zomer -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -35,6 +35,7 @@
     
 <main class="form-signin">
   <form>
+    <!--Adição logotipo -->
     <img class="mb-4" src="..\images\logo.svg" alt="" width="300" height="80">
     <h1 class="h3 mb-3 fw-normal">Por favor, identifique-se</h1>
 
@@ -52,8 +53,15 @@
         <input type="checkbox" value="remember-me"> Lembrar
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+   
+    <!-- Botões para cadastro e acesso modificados-->
+  <div class="espacoBotoes">
+   <button class="w-100 btn btn-lg btn-primary" type="button" onclick="location.href='./home.html'">Entrar</button>
+  </div> 
+  <div class="espacoBotoes">
+   <button class="w-100 btn btn-lg btn-primary" type="button" onclick="location.href='./cadastro.html'">Cadastre-se</button>
+  </div>
+   <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
   </form>
 </main>
 
