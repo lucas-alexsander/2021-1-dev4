@@ -2,17 +2,21 @@
     color:black !important
 }
 
+.homeBG{
+  background-color:rgb(233, 12, 12)  !important;
+}
+
 #homeBGLogo{
-     width: 350px; 
-     height: 100px; 
+     width: 200px; 
+     height: 150px; 
     opacity: 0.9;
     /* display:flex; */
    /* padding:10pt; */
-    
+   background:rgba(255, 255, 255, 0.508)  !important;
     align-items: center;
     justify-content: center;
     position: relative;
-    background:rgb(0, 0, 0);
+    
     border-radius: 5%;
   }
 
